@@ -2,13 +2,24 @@ body
 {
     background-color: rgb(15, 15, 61);
     color:black;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.wrapper
+{
+width: 1600px;
+padding:0;
+margin-left: auto;
+margin-right: auto;
+background-color: rgb(24, 24, 78);
 }
 
 .logo
 {
-    height: 60px;
-    width: 920px;
+    height: 70px;
+    width: 1400px;
     background-color: black;
     margin-left: auto;
     margin-right: auto;
@@ -21,41 +32,42 @@ h1
     color:white;
 }
 
-.container
+#container
 {
-  width: 920px;
+  width: 1400px;  
+    margin-top: 20px;
+  background-color: black;
+  padding: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
-  padding: 0;
+   
 }
 
 .o_mnie
 {
-width: 920px;
+padding: 20px;
+width: 1400px;
+background-color: rgb(54, 22, 85);
 }
 
 #foto
 {
 float: left;
-width: 450px;
-height: 450px;
-margin-right: 10px;
+margin-left: 0;
 margin-top: 20px;
-margin-left: 0px;
-padding: 0;
+
 }
 
 #opis
 {
 float: left;
-width: 450px;
+width: 670px;
 height:300px;
 text-align: justify;
-padding-left: 10px;
-margin-top: 10px;
+padding-left: 20px;
+margin-top: 20px;
 color: white;
-font-size:14px;
+font-size:20px;
 }
 
 h2
@@ -78,7 +90,7 @@ h2
     height: 40px;
     float: left;
     color: white;
-    margin-top: 40px;
+    margin-top: 60px;
     text-align: center;
 }
 
@@ -120,44 +132,52 @@ h2
 
 #firma
 {
-    width: 920px;
-    height: 200px;
+    width: 1400px;
+    height: 334px;
     background-color: pink;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 #opisf
 {
     background-color: black;
-    font-size: 14px;
+    font-size: 18px;
     color:white;
-    width: 620px;
-    height: 200px;
+    width: 900px;
+    height: 334px;
     float: left;
+    padding: 30px;
+    
 }
 
 #logo
 {
-    width: 300px;
-    height: 200px;
-    float: left;
+        float: left;
+        
 }
 
 #kn
 {
-    width: 700px;
+    width: 1200px;
     float: left;
+    background-color: rgb(24, 24, 21);
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .projekty
 {
-    width: 920px;
-    height: 450px;
+    width: 1390;
+    height: 550px;
     border: 2px solid black;
+    background-color: gray;
 }
 
 #footer
 {
-    width: 920px;
+    width: 1400px;
     height: 50px;
     color: white;
     text-align: center;
@@ -166,4 +186,54 @@ h2
     margin-top: 50px;
     background-color: black;
     padding-top: 10px;
+}
+
+.nav
+{
+    width: 660px;
+    height: 80px;
+    border-radius:  50px ;
+    border: 2px solid white;
+    background-color: rgb(19, 19, 63);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+#codeline1
+{
+    float: left;
+    
+    color: white;
+    width: 208px;
+    height: 76px;
+    padding: 15px;
+    margin-left: 30px;
+    border-right: solid 1px white;
+}
+
+
+#omnie1
+{
+    float: left;
+    
+    color: white;
+    width: 208px;
+    height: 76px;
+    padding: 15px;
+    border-right: solid 1px white;
+}
+
+
+#projekty1
+{
+    float: left;
+    
+    color: white;
+    width: 208px;
+    height: 76px;
+    padding: 15px;
 }
