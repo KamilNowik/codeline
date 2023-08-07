@@ -2,7 +2,9 @@ body
 {
     background-color: rgb(24, 24, 78);
     color:black;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    
     
  }
 
@@ -13,6 +15,8 @@ padding:0;
 margin-left: auto;
 margin-right: auto;
 background-color: rgb(24, 24, 78);
+
+
 
 }
 
@@ -208,6 +212,7 @@ h2
     margin-top: 50px;
     text-align: center;
     font-size: 24px;
+    
         
 }
 
@@ -265,25 +270,17 @@ a:link
 #test
 {
     margin-bottom: 100px;
-    background-color: rgb(24, 24, 78);;;
-    color:  rgb(24, 24, 78);;
+    background-color:rgb(24, 24, 78);
+    color:  rgb(24, 24, 78);
 }
 
 #test2
 {
     margin-top: 250px;
     margin-bottom: 50px;
-    background-color: rgb(24, 24, 78);
-    color:  rgb(24, 24, 78);
-    
-}
-#poczatek
-{
-    margin-top: 0px;
     background-color:rgb(24, 24, 78);
     color:  rgb(24, 24, 78);
-    margin-bottom: 0px;
-    height: 2px;
+    
 }
 
 h4
