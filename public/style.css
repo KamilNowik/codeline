@@ -54,6 +54,7 @@ padding: 20px;
 width: 1400px;
 background-color: rgb(87, 66, 66);
 margin-bottom: 50px;
+border: 2px solid black;
 
 }
 
@@ -74,6 +75,7 @@ padding-left: 20px;
 margin-top: 20px;
 color: white;
 font-size:18px;
+
 }
 
 h2
@@ -147,6 +149,8 @@ h2
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 250px;
+    border: 2px solid black;
+    
 }
 
 #opisf
@@ -155,15 +159,20 @@ h2
     font-size: 18px;
     color:white;
     width: 900px;
-    height: 334px;
+    height: 330px;
     float: left;
     padding: 30px;
+    border-right: 2px solid black;
+    
+    
     
 }
 
 #logo
 {
     float: left;
+    
+    
 }
 
 #kn
@@ -181,8 +190,9 @@ h2
     height: 450px;
     border: 2px solid black;
     background-color: gray;
-    margin-top: 150px;
+    
     margin-bottom: 250px;
+    background-color: rgb(87, 66, 66);
 }
 
 #footer
@@ -253,6 +263,8 @@ a:link
     width: 208px;
     height: 76px;
     padding: 15px;
+    
+    
 }
 
 
@@ -300,8 +312,11 @@ h4
 	width: 330px;
 	text-align: center;
 	padding: 5px;
-    margin-left: 10px;
+    margin-left: 12px;
     margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    background-color:black;
 }
 .photo1
 {
@@ -320,11 +335,13 @@ h4
 	bottom:0px;
 	opacity: 0;
 	transition: opacity 0.5s ease-in-out;
+    
 }
 
 .photo1:hover .link
 {
 	opacity: 0.8;
+    
 }
 
 
