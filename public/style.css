@@ -3,6 +3,7 @@ body
     background-color: rgb(24, 24, 78);
     color:black;
     margin-bottom: 50px;
+    
  }
 
 .wrapper
@@ -12,6 +13,7 @@ padding:0;
 margin-left: auto;
 margin-right: auto;
 background-color: rgb(24, 24, 78);
+
 }
 
 .logo
@@ -23,7 +25,7 @@ background-color: rgb(24, 24, 78);
     margin-right: auto;
     padding: 5px;
     margin-bottom: 200px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 h1
@@ -140,7 +142,7 @@ h2
     background-color: pink;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 350px;
+    margin-bottom: 250px;
 }
 
 #opisf
@@ -172,11 +174,11 @@ h2
 .projekty
 {
     width: 1390;
-    height: 500px;
+    height: 450px;
     border: 2px solid black;
     background-color: gray;
-    margin-top: 50px;
-    margin-bottom: 300px;
+    margin-top: 150px;
+    margin-bottom: 250px;
 }
 
 #footer
@@ -187,9 +189,10 @@ h2
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 190px;
+    margin-top: 50px;
     background-color: black;
     padding-top: 10px;
+    margin-bottom: 0px;
     
 }
 
@@ -205,7 +208,13 @@ h2
     margin-top: 50px;
     text-align: center;
     font-size: 24px;
-    
+        
+}
+
+a:link 
+{
+    color: #fff;
+	text-decoration: none;
 }
 
 #codeline1
@@ -250,6 +259,7 @@ h2
     top: 0; 
     z-index: 100;
     margin-top: 700px;
+    
 }
 
 #test
@@ -265,4 +275,134 @@ h2
     margin-bottom: 50px;
     background-color: rgb(24, 24, 78);
     color:  rgb(24, 24, 78);
+    
+}
+#poczatek
+{
+    margin-top: 0px;
+    background-color:rgb(24, 24, 78);
+    color:  rgb(24, 24, 78);
+    margin-bottom: 0px;
+    height: 2px;
+}
+
+h4
+{
+    font-size: 40px;
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.projekts
+{
+    display: inline-block;
+	width: 330px;
+	text-align: center;
+	padding: 5px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.photo1
+{
+	position: relative;
+	
+}
+
+.photo1 .link
+{
+	position: absolute;
+	display: block;
+	width: 320px;
+	height: 65px;
+	background-color: #111;
+	left: 0px;
+	bottom:0px;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.photo1:hover .link
+{
+	opacity: 0.8;
+}
+
+
+
+.photo2
+{
+	position: relative;
+	
+}
+
+.photo2 .link
+{
+	position: absolute;
+	display: block;
+	width: 320px;
+	height: 65px;
+	background-color: #111;
+	left: 0px;
+	bottom:0px;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.photo2:hover .link
+{
+	opacity: 0.8;
+}
+
+
+.photo3
+{
+	position: relative;
+	
+}
+
+.photo3 .link
+{
+	position: absolute;
+	display: block;
+	width: 320px;
+	height: 65px;
+	background-color: #111;
+	left: 0px;
+	bottom:0px;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.photo3:hover .link
+{
+	opacity: 0.8;
+}
+
+
+
+.photo4
+{
+	position: relative;
+	
+}
+
+.photo4 .link
+{
+	position: absolute;
+	display: block;
+	width: 320px;
+	height: 65px;
+	background-color: #111;
+	left: 0px;
+	bottom:0px;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.photo4:hover .link
+{
+	opacity: 0.8;
 }
