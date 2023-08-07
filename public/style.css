@@ -335,12 +335,17 @@ h4
 	bottom:0px;
 	opacity: 0;
 	transition: opacity 0.5s ease-in-out;
+    color: white;
+    padding: 15px;
     
 }
 
 .photo1:hover .link
 {
 	opacity: 0.8;
+    color: white;
+    padding: 15px;
+    
     
 }
 
@@ -363,11 +368,15 @@ h4
 	bottom:0px;
 	opacity: 0;
 	transition: opacity 0.5s ease-in-out;
+    color: white;
+    padding: 15px;
 }
 
 .photo2:hover .link
 {
 	opacity: 0.8;
+    color: white;
+    padding: 15px;
 }
 
 
@@ -388,11 +397,15 @@ h4
 	bottom:0px;
 	opacity: 0;
 	transition: opacity 0.5s ease-in-out;
+    color: white;
+    padding: 15px;
 }
 
 .photo3:hover .link
 {
 	opacity: 0.8;
+    color: white;
+    padding: 15px;
 }
 
 
@@ -414,9 +427,13 @@ h4
 	bottom:0px;
 	opacity: 0;
 	transition: opacity 0.5s ease-in-out;
+    color: white;
+    padding: 15px;
 }
 
 .photo4:hover .link
 {
 	opacity: 0.8;
+    color: white;
+    padding: 15px;
 }
