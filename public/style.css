@@ -4,20 +4,15 @@ body
     color:black;
     margin-bottom: 5px;
     margin-top: 10px;
-    
-    
- }
+}
 
 .wrapper
 {
-width: 1600px;
-padding:0;
-margin-left: auto;
-margin-right: auto;
-background-color: rgb(24, 24, 78);
-
-
-
+    width: 1600px;
+    padding:0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(24, 24, 78);
 }
 
 .logo
@@ -41,8 +36,8 @@ h1
 #container
 {
   width: 1400px;  
-margin-top: 20px;
- background-color: rgb(24, 24, 78);
+  margin-top: 20px;
+  background-color: rgb(24, 24, 78);
   padding: 0;
   margin-left: auto;
   margin-right: auto;
@@ -67,15 +62,14 @@ margin-top: 20px;
 
 #opis
 {
-float: left;
-width: 670px;
-height:300px;
-text-align: justify;
-padding-left: 20px;
-margin-top: 20px;
-color: white;
-font-size:18px;
-
+    float: left;
+    width: 670px;
+    height:300px;
+    text-align: justify;
+    padding-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-size:18px;
 }
 
 h2
@@ -184,7 +178,6 @@ h2
     height: 450px;
     border: 2px solid black;
     background-color: gray;
-    
     margin-bottom: 250px;
     background-color: rgb(87, 66, 66);
 }
@@ -201,7 +194,6 @@ h2
     background-color: black;
     padding-top: 10px;
     margin-bottom: 0px;
-    
 }
 
 .nav
@@ -216,8 +208,6 @@ h2
     margin-top: 50px;
     text-align: center;
     font-size: 24px;
-    
-        
 }
 
 a:link 
@@ -235,7 +225,6 @@ a:link
     padding: 15px;
     margin-left: 30px;
     border-right: solid 1px white;
-    
 }
 
 
@@ -257,8 +246,6 @@ a:link
     width: 208px;
     height: 76px;
     padding: 15px;
-    
-    
 }
 
 
@@ -270,7 +257,6 @@ a:link
     top: 0; 
     z-index: 100;
     margin-top: 700px;
-    
 }
 
 #test
@@ -286,7 +272,6 @@ a:link
     margin-bottom: 50px;
     background-color:rgb(24, 24, 78);
     color:  rgb(24, 24, 78);
-    
 }
 
 h4
@@ -315,7 +300,6 @@ h4
 .photo1
 {
 	position: relative;
-	
 }
 
 .photo1 .link
@@ -331,7 +315,6 @@ h4
 	transition: opacity 0.5s ease-in-out;
     color: white;
     padding: 15px;
-    
 }
 
 .photo1:hover .link
@@ -339,16 +322,11 @@ h4
 	opacity: 0.8;
     color: white;
     padding: 15px;
-    
-    
 }
-
-
 
 .photo2
 {
 	position: relative;
-	
 }
 
 .photo2 .link
@@ -377,7 +355,6 @@ h4
 .photo3
 {
 	position: relative;
-	
 }
 
 .photo3 .link
@@ -401,7 +378,6 @@ h4
     color: white;
     padding: 15px;
 }
-
 
 
 .photo4
