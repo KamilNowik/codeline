@@ -2,18 +2,17 @@ body
 {
     background-color: rgb(24, 24, 78);
     color:black;
-    margin-bottom: 50px;
-    
- }
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
 
 .wrapper
 {
-width: 1600px;
-padding:0;
-margin-left: auto;
-margin-right: auto;
-background-color: rgb(24, 24, 78);
-
+    width: 1600px;
+    padding:0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(24, 24, 78);
 }
 
 .logo
@@ -37,8 +36,8 @@ h1
 #container
 {
   width: 1400px;  
-margin-top: 20px;
- background-color: rgb(24, 24, 78);
+  margin-top: 20px;
+  background-color: rgb(24, 24, 78);
   padding: 0;
   margin-left: auto;
   margin-right: auto;
@@ -50,6 +49,7 @@ padding: 20px;
 width: 1400px;
 background-color: rgb(87, 66, 66);
 margin-bottom: 50px;
+border: 2px solid black;
 
 }
 
@@ -62,14 +62,14 @@ margin-top: 20px;
 
 #opis
 {
-float: left;
-width: 670px;
-height:300px;
-text-align: justify;
-padding-left: 20px;
-margin-top: 20px;
-color: white;
-font-size:18px;
+    float: left;
+    width: 670px;
+    height:300px;
+    text-align: justify;
+    padding-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-size:18px;
 }
 
 h2
@@ -89,10 +89,10 @@ h2
 .socials
 {
     width: 450px;
-    height: 50px;
+    height: 100px;
     float: left;
     color: white;
-    margin-top: 45px;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -143,6 +143,7 @@ h2
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 250px;
+    border: 2px solid black;
 }
 
 #opisf
@@ -151,10 +152,10 @@ h2
     font-size: 18px;
     color:white;
     width: 900px;
-    height: 334px;
+    height: 330px;
     float: left;
     padding: 30px;
-    
+    border-right: 2px solid black;
 }
 
 #logo
@@ -177,8 +178,8 @@ h2
     height: 450px;
     border: 2px solid black;
     background-color: gray;
-    margin-top: 150px;
     margin-bottom: 250px;
+    background-color: rgb(87, 66, 66);
 }
 
 #footer
@@ -193,7 +194,6 @@ h2
     background-color: black;
     padding-top: 10px;
     margin-bottom: 0px;
-    
 }
 
 .nav
@@ -208,7 +208,6 @@ h2
     margin-top: 50px;
     text-align: center;
     font-size: 24px;
-        
 }
 
 a:link 
@@ -226,7 +225,6 @@ a:link
     padding: 15px;
     margin-left: 30px;
     border-right: solid 1px white;
-    
 }
 
 
@@ -259,31 +257,21 @@ a:link
     top: 0; 
     z-index: 100;
     margin-top: 700px;
-    
 }
 
 #test
 {
     margin-bottom: 100px;
-    background-color: rgb(24, 24, 78);;;
-    color:  rgb(24, 24, 78);;
+    background-color:rgb(24, 24, 78);
+    color:  rgb(24, 24, 78);
 }
 
 #test2
 {
     margin-top: 250px;
     margin-bottom: 50px;
-    background-color: rgb(24, 24, 78);
-    color:  rgb(24, 24, 78);
-    
-}
-#poczatek
-{
-    margin-top: 0px;
     background-color:rgb(24, 24, 78);
     color:  rgb(24, 24, 78);
-    margin-bottom: 0px;
-    height: 2px;
 }
 
 h4
@@ -303,13 +291,15 @@ h4
 	width: 330px;
 	text-align: center;
 	padding: 5px;
-    margin-left: 10px;
+    margin-left: 12px;
     margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    background-color:black;
 }
 .photo1
 {
 	position: relative;
-	
 }
 
 .photo1 .link
@@ -323,19 +313,20 @@ h4
 	bottom:0px;
 	opacity: 0;
 	transition: opacity 0.5s ease-in-out;
+    color: white;
+    padding: 15px;
 }
 
 .photo1:hover .link
 {
 	opacity: 0.8;
+    color: white;
+    padding: 15px;
 }
-
-
 
 .photo2
 {
 	position: relative;
-	
 }
 
 .photo2 .link
@@ -349,18 +340,21 @@ h4
 	bottom:0px;
 	opacity: 0;
 	transition: opacity 0.5s ease-in-out;
+    color: white;
+    padding: 15px;
 }
 
 .photo2:hover .link
 {
 	opacity: 0.8;
+    color: white;
+    padding: 15px;
 }
 
 
 .photo3
 {
 	position: relative;
-	
 }
 
 .photo3 .link
@@ -374,13 +368,16 @@ h4
 	bottom:0px;
 	opacity: 0;
 	transition: opacity 0.5s ease-in-out;
+    color: white;
+    padding: 15px;
 }
 
 .photo3:hover .link
 {
 	opacity: 0.8;
+    color: white;
+    padding: 15px;
 }
-
 
 
 .photo4
@@ -400,9 +397,13 @@ h4
 	bottom:0px;
 	opacity: 0;
 	transition: opacity 0.5s ease-in-out;
+    color: white;
+    padding: 15px;
 }
 
 .photo4:hover .link
 {
 	opacity: 0.8;
+    color: white;
+    padding: 15px;
 }
